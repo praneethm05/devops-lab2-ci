@@ -1,0 +1,26 @@
+{
+  "name": "lab2-ci",
+  "version": "1.0.0",
+  "description": "Basic CI workflow lab",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "jest": "^30.5.2"
+  },
+  "jest": {
+    "watchman": false
+  }
+}
